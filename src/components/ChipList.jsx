@@ -21,7 +21,7 @@ export default function ChipList() {
   const selectedKeys = Object.keys(selectedWordSets)
   return (
     <div style={{ display: 'grid', placeItems: 'center', marginTop: 20 }}>
-      <div style={{ display: 'flex', gap: 8 }}>
+      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', padding: '0 20px' }}>
         {Object.keys(wordSets).map((key, index) => (
           <Chip
             key={key}

@@ -6,3 +6,11 @@
   margin-left: 5px;
   line-height: 42px;
 }
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 14px;
+    line-height: 18px;
+    flex-shrink: 1;
+  }
+}
