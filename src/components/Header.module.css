@@ -1,0 +1,12 @@
+.header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+}

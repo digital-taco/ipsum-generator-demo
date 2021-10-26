@@ -1,0 +1,29 @@
+.chip {
+  border-radius: 100px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background: white;
+  box-shadow: 4px 4px 8px #d9d9d9;
+  font-weight: bold;
+  color: #3f51b5;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.chip:hover {
+  background: #fafafa;
+}
+
+.chip:active {
+  padding: 6px 14px;
+  margin: 2px;
+}
+
+.chip[is-selected] {
+  background: rgb(93, 78, 233);
+  color: white;
+}
+
+.chip label {
+  cursor: pointer;
+}
